@@ -1,0 +1,12 @@
+/* Stili globali */
+/* Impostazioni base applicate a tutta la pagina */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding-top: 90px; /*Compensa l'header fisso evitando sovrapposizioni*/
+}
+
+/* Abilita lo scroll fluido tra le sezioni */
+html {
+  scroll-behavior: smooth;
+}
