@@ -340,6 +340,37 @@
   }
 }
 
+/* Responsive per dispositivi mobile */
+@media (max-width: 480px) {
+
+  /* La griglia passa da 2 a 1 colonna */
+  .sustainability-grid {
+    grid-template-columns: 1fr;
+    padding: 30px 10px;
+    justify-items: center;
+    gap: 20px;
+  }
+
+  /* Ridimensionamento delle card */
+  .sustainability-card {
+    width: 250px;
+  }
+
+  /* Ulteriore ridimensionamento del testo */
+  .sustainability-hero h1 {
+    font-size: 30px;
+    max-width: 250px;
+  }
+
+  .sustainability-hero h4 {
+    font-size: 14px;
+  }
+
+  .sustainability-hero p {
+    max-width: 340px;
+  }
+}
+
 /* SEZIONE INIZIATIVE */
 /* Contenitore principale della sezione iniziative */
 .initiative-section {
