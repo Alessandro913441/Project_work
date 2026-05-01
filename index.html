@@ -1,0 +1,529 @@
+<!-- Dicjiarazione del tipo di documento HTML5 -->
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+    <!-- METADATI -->
+     <!-- Definisce la codifica dei caratteri -->
+    <meta charset="UTF-8">
+
+    <!-- Rende la pagina responsive su tutti i dispositivi -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Informazioni sull'autore del progetto -->
+    <meta name="author" content="Alessandro Pierri">
+
+    <!-- Fogli di stile -->
+    <link rel="stylesheet" href="CSS-style/general.css">
+    <link rel="stylesheet" href="CSS-style/header.css">
+    <link rel="stylesheet" href="CSS-style/footer.css">
+    <link rel="stylesheet" href="CSS-style/main.css">
+
+    <title>BF Web Page</title>
+  </head>
+  <body>
+
+    <!-- header -->
+    <!-- Intestazione della pagina contenente logo, nome dell'azienda e menu di navigazione-->
+    <header>
+
+      <!-- Contenitore del logo aziendale -->
+      <div class="logo-container">
+        <img src="img/bf-spa-logo.svg" alt="Logo Aziendale BF">
+      </div>
+
+      <!-- Nome dell'azienda -->
+      <div class="company-name">
+        Bonifiche Ferraresi
+      </div>
+
+      <!-- Menu di navigazione principale -->
+      <nav class="nav-header">
+        <ul>
+          <!-- Link alla sezione Home -->
+          <li><a href="#home">Home</a></li>
+
+          <!-- Link alla sezione Sostenibilità -->
+          <li><a href="#sostenibilita">Sostenibilità</a></li>
+
+          <!-- Link alla sezione Report -->
+          <li><a href="#report">Report</a></li>
+
+          <!-- Link alla sezione Contattaci -->
+          <li><a href="#contattaci">Contattaci</a></li>
+        </ul> 
+      </nav>
+
+    </header>
+
+    <!-- main -->
+    <main>
+
+      <!-- Sezione Home -->
+      <section class="home" id="home">
+
+        <!-- Hero Section -->
+        <!-- Blocco introduttivo principale con il messaggio aziendale e call to action -->
+        <div class="home-hero">
+
+          <!-- Sottotitolo introduttivo -->
+          <h2>Tra avanguardia e tradizione</h2>
+
+          <!-- Titolo principale -->
+          <h1>Sviluppo Sostenibile</h1>
+
+          <!-- Descrizione aziendale -->
+          <p>BF è il principale operatore della filiera agro-industriale e, grazie a tecnologie innovative e agricoltura
+            di precisione, garantisce qualità, tracciabilità e servizi avanzati per creare valore 
+            lungo tutto il processo produttivo.
+          </p>
+
+          <!-- Pulsante call to action -->
+          <button type="button">Scopri di più</button>
+        </div>
+
+        <!-- Primo blocco informativo -->
+         <!-- Sezione con immagine e testo descrittivo sul Gruppo aziendale -->
+        <div class="about-block">
+
+          <!-- Contenitore immagine -->
+          <div class="img-container">
+            <img src="img/background-img-4" alt="Edificio BF">
+          </div>
+
+          <!-- Contenitore testo informativo -->
+          <div class="home-info-container">
+            <h2>Il Gruppo</h2>
+            <p>Il Gruppo BF si configura oggi come una delle principali realtà dell'agroindustria italiana,
+              sviluppandosi intorno a Bonifiche Ferraresi S.p.A. Società Agricola, la più grande
+              azienda agricola nazionale per Superficie Agricola Utilizzata con 7.750 ettari. Nato nel 1871 come società di bonifica dei terreni ferraresi,
+              il Gruppo ha progressivamente ampliato il proprio ruolo trasformandosi da semplice operatore agricolo
+              a piattaforma integrata capace di presidiare l'intera filiera agroalimentare con oltre 1.200 dipendenti 
+              e una crescente presenza internazionale. 
+            </p>
+          </div>
+        </div>
+
+        <!-- Secondo blocco informativo -->
+        <div class="about-block reverse-about-block">
+
+          <!-- Contenitore testo sui valori aziendali -->
+          <div class="home-info-container">
+            <h2>Valore</h2>
+            <p>I valori del Gruppo BF costituiscono il fondamento della sua identità aziendale e orientano in modo 
+              coerente le decisioni strategiche e operative lungo tutta la filiera agro-industriale. La società promuove
+              un modello di business basato su legalità, trasparenza, integrità e affidabilità, principi indispensabili 
+              per instaurare rapporti di fiducia con tutti gli stakeholder e garantire una gestione etica e responsabile. 
+              A questi si affiancano l'onestà, la correttezza e un forte orientamento alla qualità, perseguito tramite innovazione, 
+              ricerca e sviluppo tecnologico finalizzati alla sicurezza alimentare e alla tracciabilità dei processi.
+            </p>
+          </div>
+
+          <!-- Contenitore immagine -->
+          <div class="img-container">
+            <img src="img/background-img-2" alt="Campo coltivato">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Sezione Sostenibilità -->
+      <!-- Sezione dedicata ai temi di sostenibilità, innovazione e responsabilità
+       sociale del Gruppo -->
+      <section class="sustainability" id="sostenibilita">
+
+        <!-- Hero Sostenibilità -->
+        <!-- Blocco introduttivo con messaggio principale -->
+        <div class="sustainability-hero">
+
+          <!-- Sottotitolo tematico -->
+          <h4>SOSTENABILITÀ, PRECISIONE, INNOVAZIONE</h4>
+
+          <!-- Titolo principale -->
+          <h1>Sviluppo sostenibile A TUTTO CAMPO</h1>
+
+          <!-- Breve descrizione del modello di sostenibilità aziendale -->
+          <p>Il Gruppo BF adotta un modello di sviluppo scalabile e 
+            replicabile, fondato sui principi di sostenibilità e sui 
+            valori del Codice Etico. Le società del Gruppo mantengono 
+            un impegno costante verso la responsabilità sociale 
+            d'impresa, considerata un orientamento permanente.
+          </p>
+        </div>
+        
+        <!-- Grid Sostenibilità -->
+         <!-- Layout e griglia contenenti diverse card informative -->
+        <div class="sustainability-grid">
+
+          <!-- Card-1 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check">
+            <h2>Tutela Ambientale</h2>
+            <p class="sustainability-card-text">Il Gruppo BF ha avviato un piano di decarbonizzazione con l'obiettivo 
+              di riduzione del 70&#37; delle emissioni GES entro il 2030, monitorando i consumi 
+              energetici e carbon footprint.
+            </p>
+            <p class="sustainability-card-data">Target CO<sub>2</sub> entro 2030: -70%</p>
+          </div>
+
+          <!-- Card-2 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check-mark">
+            <h2>Capitale Umano</h2>
+            <p class="sustainability-card-text">La sostenibilità del Gruppo passa attraverso formazione continua, 
+              sviluppo  delle competenze e sistemi di crescita professionale estesi all'84&#37; del personale.
+            </p>
+            <p class="sustainability-card-data">8.341 ore di formazione</p>
+          </div>
+
+          <!-- Card-3 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check-mark">
+            <h2>Governance</h2>
+            <p class="sustainability-card-text">Il tema ESG è integrato nei processi decisionali del Gruppo tramite strumenti di 
+              controllo, procedure di compliance e un piano di sostenibilità che guida le scelte 
+              aziendali nel medio periodo.
+            </p>
+            <p class="sustainability-card-data">Piano ESG attivo 2023-2027</p>
+          </div>
+
+          <!-- Card-4 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check-mark">
+            <h2>Gestione dei rifiuti</h2>
+            <p class="sustainability-card-text">Il Gruppo adotta sistemi di monitoraggio e gestione dei rifiuti lungo tutta la filiera produttiva, 
+              favorendo il recupero dei sottoprodotti e soluzioni volte a un modello di economia circolare.
+            </p>
+            <p class="sustainability-card-data">Tasso di recupero del 91&#37;</p>
+          </div>
+
+          <!-- Card-5 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check-mark">
+            <h2>Risorse</h2>
+            <p class="sustainability-card-text">Ottimizzazione idrica, valorizzazione dei sottoprodotti e riduzione dei rifiuti rappresentano
+              azioni centrali per un modello produttivo più efficiente e circolare.
+            </p>
+            <p class="sustainability-card-data">161 ha con irrigazione avanzata</p>
+          </div>
+
+          <!-- Card-6 -->
+          <div class="sustainability-card">
+            <img src="img/check.png" alt="check">
+            <h2>Biodiversità</h2>
+            <p class="sustainability-card-text">La tutela della biodiversità rappresenta una componente centrale del modello agricolo
+              BF, che dedica ampie superfici a colture di copertura, aree naturali e pratiche di conservazione
+              del suolo.
+            </p>
+            <p class="sustainability-card-data">35,4&#37;  delle superfici coinvolte</p>
+          </div>
+        </div>
+
+        <!-- Sezione Iniziative -->
+        <!-- Sezione dedicata alla consultazione delle più recenti iniziative intraprese dal Guppo in ambito di sostenibilità -->
+        <div class="initiative-section">
+
+          <!-- Blocco introduttivo con titolo e breve descrizione -->
+          <div class="initiative-description-text">
+            <h1>Iniziative e Progetti</h1>
+            <p>Vengono presentate alcune delle principali iniziative e dei progetti con cui il Gruppo BF 
+              porta avanti il proprio impegno per un'agricoltura sostenibile, innovativa e attenta alle 
+              comunità globali.
+            </p>
+          </div>
+
+          <!-- Grid iniziative -->
+          <!-- Contenitore principale dele card delle iniziative -->
+          <div class="initiative-grid">
+
+            <!-- Iniziativa 1 -->
+            <div class="initiative-card">
+
+              <!-- Immagine rappresentativa del progetto -->
+              <img class="position-right" src="img/Iniziativa-1" alt="BFuture Farm alla COP30">
+
+              <div class="initiative-card-text">
+                <h3>BFuture Farm alla COP30</h3>
+                <p>BF International partecipa alla COP30, il principale evento delle Nazioni Unite 
+                  sui cambiamenti climatici per condividere il proprio impegno verso un'agricoltura 
+                  più sostenibile e resiliente. Durante l'evento viene presentato il progetto BFuture Farm,
+                  un modello di agricoltura innovativa che unisce produttività, tutela dell'ambiente e 
+                  sviluppo sostenibile delle comunità nei Paesi in cui BF opera.
+                </p>
+
+                <!-- Link esterno di approfondimento -->
+                <a href="https://www.bfspa.it/it/corporate-news/bf-international-alla-cop30-presenta-le-bfuture-farm" target="_blank">
+                  Scopri di più &#8594;
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Iniziativa 2 -->
+            <div class="initiative-card">
+
+              <img src="img/Iniziativa-2" alt="Accordo con IFAD per l'Africa">
+
+              <div class="initiative-card-text">
+                <h3>Accordo con IFAD per l'Africa</h3>
+                <p>BF S.p.A. e IFAD, agenzia delle Nazioni Unite per lo sviluppo agricolo, hanno firmato 
+                  una Lettera di Intenti per esplorare nuove forme di collaborazione a sostegno di un'agricoltura
+                  più sostenibile, con particolare attenzione ai Paesi africani. L'obiettivo è rafforzare 
+                  la sicurezza alimentare e creare nuove opportunità economiche nelle aree rurali, promuovendo 
+                  uno sviluppo agricolo che unisca innovazione, formazione e crescita dei territori.</p>
+                <a href="https://www.bfspa.it/it/corporate-news/bf-s-p-a-e-ifad-uniscono-le-forze-per-promuovere-un-agricoltura-sostenibile-e-inclusiva-in-africa" target="_blank">
+                  Scopri di più &#8594;
+                </a>
+              </div>
+              
+            </div>
+
+            <!-- Iniziativa 3 -->
+            <div class="initiative-card">
+
+              <img class="position-left" src="img/Iniziativa-3" alt="Innovazione e Agricoltura di Precisione">
+
+              <div class="initiative-card-text">
+                <h3>Innovazione e Agricoltura di Precisione</h3>
+                <p>BF S.p.A., insieme all'Associazione Futuri Probabili, ha presentato alla Camera dei Deputati 
+                  un position paper sull'agricoltura di precisione, frutto di tre anni di ricerche dedicati all'innovazione 
+                  del settore agricolo in ottica digitale e sostenibile. Il progetto mette in evidenza come l'integrazione 
+                  tra tecnologia, ricerca e competenze diverse possa rendere l'agricoltura più efficiente, riducendo 
+                  gli sprechi e migliorando la sostenibilità delle produzioni.
+                </p>
+                <a href="https://www.bfspa.it/it/corporate-news/agricoltura-di-precisione-bf-e-associazione-futuri-probabili-presentano-una-ricerca-alla-camera" target="_blank">
+                  Scopri di più &#8594;
+                </a>
+              </div>
+              
+            </div>
+
+            <!-- Iniziativa 4 -->
+            <div class="initiative-card">
+
+              <img src="img/Iniziativa-4" alt="BF e Save the Children">
+
+              <div class="initiative-card-text">
+                <h3>BF e Save the Children</h3>
+                <p>BF collabora con Save the Children per promuovere educazione e opportunità di crescita per i giovani, 
+                  sostenendo progetti in Italia e nei Paesi in cui il Gruppo è presente, con particolare attenzione all'inclusione 
+                  sociale e allo sviluppo delle comunità locali. La partnership valorizza anche le BFuture Farms e iniziative 
+                  come i Punti Luce e il progetto &quot;Step-up&quot;, che favoriscono formazione, lavoro e nuove opportunità per le 
+                  nuove generazioni.</p>
+                <a href="https://www.bfspa.it/it/corporate-news/bf-spa-e-save-the-children-insieme-per-nuove-opportunita-educative-per-bambine-bambini-e-giovani" target="_blank">
+                  Scopri di più &#8594;
+                </a>
+              </div>
+              
+            </div>
+              
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Sezione report/documentazione -->
+      <!-- Sezione dedicata alla consultazione dei documenti ufficiali relativi 
+        alla sostenibilità aziendale -->
+      <section class="report-section" id="report">
+
+        <!-- Titolo principale -->
+        <h1>Informativa di Sostenibilità</h1>
+
+        <!-- Lista contenente i vari report -->
+        <ul class="reports-list">
+
+          <!-- Report 2024 -->
+          <li class="report-row">
+
+            <!-- Nome del documento -->
+            <p>B.F. S.p.A. Annual Report 2024</p>
+
+            <!-- Area dedicata alle informazioni di download -->
+            <div class="report-download-section">
+
+              <!-- Formato e dimensione del file -->
+              <p>PDF(11.6MB)</p>
+
+              <!-- Link per il download del report in una nuova scheda -->
+              <a href="reports/Annual_report_2024.pdf" target="_blank">scarica &#8681;</a>
+            </div>
+          </li>
+
+          <!-- Report 2023 -->
+          <li class="report-row">
+            <p>Bilancio di sostenibilità 2023</p>
+            <div class="report-download-section">
+              <p>PDF(2.4MB)</p>
+              <a href="reports/Bilancio_2023.pdf" target="_blank">scarica &#8681;</a>
+            </div>
+          </li>
+
+          <!-- Report 2022 -->
+          <li class="report-row">
+            <p>Bilancio di sostenibilità 2022</p>
+            <div class="report-download-section">
+              <p>PDF(2.4MB)</p>
+              <a href="reports/Bilancio_2022.pdf" target="_blank">scarica &#8681;</a>
+            </div>
+          </li>
+
+          <!-- Report 2021 -->
+          <li class="report-row">
+            <p>Bilancio di sostenibilità 2021</p>
+            <div class="report-download-section">
+              <p>PDF(4.2MB)</p>
+              <a href="reports/Bilancio_2021.pdf" target="_blank">scarica &#8681;</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <!-- Sezione Contatti -->
+      <!-- Sezione dedicata alle informazioni di contatti e al modulo per l'invio di richieste -->
+      <section class="contact-section" id="contattaci">
+
+        <div class="contact-title">
+
+          <!-- Titolo principale -->
+          <h1>Contattaci</h1>
+
+          <!-- Breve testo introduttivo -->
+          <p>Per ulteriori informazioni sulle attività e le iniziative intraprese
+            dal Gruppo BF è possibile compilare il modulo sottostante.
+          </p>
+        </div>
+        
+        <!-- Contenitore principale che divide informazioni aziendali e form -->
+        <div class="contact-container">
+
+          <!-- Area contenente le informazioni di contatto -->
+          <div class="contact-info-box">
+
+            <!-- Informazioni indirizzo -->
+            <div class="contact-info">
+              <h3>Indirizzo</h3>
+              <p>Via Cavicchini, 2</p>
+              <p>Jolanda di Savoia (FE)</p>
+            </div>
+
+            <!-- Informazioni email -->
+            <div class="contact-info">
+              <h3>Email</h3>
+              <p>info@bfspa.it</p>
+            </div>
+
+            <!-- Informazioni telefoniche -->
+            <div class="contact-info">
+              <h3>Telefono</h3>
+              <p>+39 0532 836102</p>
+            </div>
+          </div>
+
+          <!-- Area contenente la form di contatto -->
+          <div class="contact-form-box">
+            <form class="contact-form">
+
+              <!-- Prima riga del form dedicata ai dati anagrafici -->
+              <div class="form-row">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Cognome">
+              </div>
+
+              <!-- Seconda riga del form dedicata ai recapiti -->
+              <div class="form-row">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Telefono">
+              </div>
+
+              <!-- Campo di testo esteso per il messaggio -->
+              <textarea placeholder="Inserisci qui il tuo messaggio..."></textarea>
+
+              <!-- Pulsante di invio -->
+              <button type="button">Invia</button>
+
+            </form>
+          </div>
+
+        </div>
+        
+      </section>
+
+    </main>
+
+
+    <!-- footer -->
+    <!-- Sezione contenente menu rapido, recapiti aziendali e testo descrittivo -->
+    <footer>
+
+      <!-- Contenitore principale delle informazioni del footer -->
+      <div class="footer-info">
+
+        <!-- Menu di navigazione secondario -->
+        <nav class="nav-footer">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sostenibilita">Sostenibilità</a></li>
+            <li><a href="#report">Report</a></li>
+            <li><a href="#contattaci">Contattaci</a></li>
+          </ul> 
+        </nav>
+
+        <!-- Sezione contenente i recapiti aziendali -->
+        <div class="footer-contact-info">
+          <div class="footer-contact-wrapper">
+
+            <!-- Indirizzo aziendale -->
+            <div class="contact-info">
+              <h4>Indirizzo</h4>
+              <p>Via Cavicchini, 2</p>
+              <p>Jolanda di Savoia (FE)</p>
+            </div>
+            
+            <!-- Email aziendale -->
+            <div class="contact-info">
+              <h4>Email</h4>
+              <p>info@bfspa.it</p>
+            </div>
+
+            <!-- Numero telefonico aziendale -->
+            <div class="contact-info">
+              <h4>Telefono</h4>
+              <p>+39 0532 836102</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Breve messaggio sull'impegno aziendale -->
+        <div class="footer-text-container">
+
+          <div class="footer-text">
+            <h4>L'impegno del Gruppo</h4>
+            <p>Bonifiche Ferraresi promuove un modello agricolo innovativo orientato alla sostenibilità
+              e alla valorizzazione del territorio
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Parte inferiore del footer dedicata al messaggio sul copyright e uso dei contenuti -->
+      <div class="footer-bottom">
+        <p>	&#169; Progetto didattico. Immagini e logo aziendale utilizzati esclusivamente
+          a scopo illustrativo e non commerciale
+        </p>
+      </div>
+
+    </footer>
+  </body>
+</html>
+
+
+        
+        
+        
+        
