@@ -179,7 +179,7 @@
   .home-info-container p {
     font-size: 15px;
     line-height: 22px;
-    max-width: 380px;
+    max-width: 360px;
     text-align: justify;
   }
 
@@ -336,7 +336,7 @@
   }
 
   .sustainability-hero p {
-    max-width: 380px;
+    max-width: 360px;
   }
 }
 
@@ -454,7 +454,7 @@
   }
 
   .initiative-description-text p {
-    max-width: 380px;
+    max-width: 360px;
     font-size: 15px;
   }
 
@@ -741,6 +741,7 @@
   .contact-title p {
     font-size: 15px;
     padding: 0 20px;
+    max-width: 360px;
   }
 
   /* Nasconde i recapiti per alleggerire il layout */
