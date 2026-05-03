@@ -1,4 +1,4 @@
-# 🌳Sostenibilità in Bonifiche Ferraresi
+# 🌱Sostenibilità in Bonifiche Ferraresi
 
 ## 🎓Project Work - Unipegaso
 **Corso:** Informatica per le Aziende Digitali (L-31)  
